@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <title>Welcome My Homepage</title>
+  </head>
+  <script type="text/javascript">
+      $(function(){
+        $(window).resize(function () {          //当浏览器大小变化时
+          var iw =$(document.body).width()-150;
+          $(iamge).width(iw);
+          var dh = $(window).height()-120;
+          $(iamge).height(dh);
+        });
+        var dh = $(window).height()-120;
+        $("#iamge").height(dh);
+        var iw =$(document.body).width()-150;
+        $("#iamge").width(iw);
+      });
+    </script>
+  <body>
+    <img id="iamge" src="/iamge.jpg" alt="图片加载失败/>
+  </body>
+</html>
