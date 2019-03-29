@@ -9,9 +9,9 @@
       $(function(){
         $(window).resize(function () {          //当浏览器大小变化时
           var iw =$(document.body).width()-150;
-          $(iamge).width(iw);
+          $("#iamge").width(iw);
           var dh = $(window).height()-120;
-          $(iamge).height(dh);
+          $("#iamge").height(dh);
         });
         var dh = $(window).height()-120;
         $("#iamge").height(dh);
@@ -20,6 +20,6 @@
       });
     </script>
   <body>
-    <img id="iamge" src="/iamge.jpg" alt="图片加载失败/>
+    <img id="iamge" src="iamge.jpg" alt="图片加载失败/>
   </body>
 </html>
